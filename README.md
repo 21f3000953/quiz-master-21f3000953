@@ -30,8 +30,8 @@ A comprehensive quiz management system for educational institutions.
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
-   cd Quiz-Master
+   git clone https://github.com/21f3000953/quiz-master-21f3000953.git
+   cd quiz-master-21f3000953
    ```
 
 2. Create a virtual environment:
@@ -64,9 +64,9 @@ A comprehensive quiz management system for educational institutions.
    # Email settings
    SMTP_SERVER=smtp.gmail.com
    SMTP_PORT=587
-   SMTP_USERNAME=your-email@gmail.com
-   SMTP_PASSWORD=your-app-password
-   FROM_EMAIL=Quiz Master <your-email@gmail.com>
+   SMTP_USERNAME= #email@gmail.com
+   SMTP_PASSWORD=#app-password
+   FROM_EMAIL=Quiz Master <# email@gmail.com>
    EMAIL_DEBUG_MODE=False  # Set to True in development
    
    # Caching Configuration
@@ -84,7 +84,7 @@ A comprehensive quiz management system for educational institutions.
 
 6. Set up the frontend:
    ```
-   cd app/static/frontend
+   cd frontend
    npm install
    npm run serve  # For development
    # OR
